@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demofx2.LoadViewController">
+   <children>
+      <Label layoutX="190.0" layoutY="20.0" prefHeight="35.0" prefWidth="206.0" text="Load All Vehicle" textFill="#c91b1b">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblVehicle" layoutX="30.0" layoutY="110.0" prefHeight="200.0" prefWidth="562.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="id" />
+          <TableColumn prefWidth="148.79998779296875" text="brand" />
+            <TableColumn prefWidth="132.800048828125" text="model" />
+            <TableColumn prefWidth="91.20001220703125" text="gears" />
+            <TableColumn minWidth="0.0" prefWidth="114.39996337890625" text="price" />
+        </columns>
+      </TableView>
+      <Button layoutX="458.0" layoutY="46.0" mnemonicParsing="false" onAction="#loadData" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: green;" text="Button" textFill="#f7f1f1" />
+   </children>
+</AnchorPane>
