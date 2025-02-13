@@ -8,6 +8,10 @@ public class SpareParts {
 
     }
 
+    public void deleteSpareParts(){
+        System.out.println("Delete spare parts");
+    }
+
 
 
 }
