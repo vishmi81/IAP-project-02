@@ -12,6 +12,9 @@ public class SpareParts {
         System.out.println("Delete spare parts");
     }
 
+    public void displaySpareParts(){
+        System.out.println("Display spare parts");
+    }
 
 
 }
